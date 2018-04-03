@@ -1,0 +1,418 @@
+
+*
+{
+	margin: 0 auto;
+	padding: 0;
+}
+#top1{
+	width: 1300px;
+	height: 30px;
+	background-color: #5E5B5B;
+}
+#top1 p{ 
+	padding-left:10px;
+	float: left;
+	color: white;
+	/*height: 30px;*/
+	line-height: 30px;
+}
+#top1 li{
+	float: right;
+	/*height: 30px;*/
+	line-height: 30px;
+	color: white;
+	text-align: center;
+	width: 80px;
+    border-right: 1px solid white;
+    list-style-type: none;
+}
+#top1 a{
+	color: white;
+	display: block;
+	width: 76px;
+	height: 30px;
+	text-decoration: none;
+}
+
+#top1 li:hover a{
+	background-color: yellow;
+	color: #888;
+}
+#top2{
+	height: 40px;
+	width: 1300px;
+	background-color:#F8F1F1;
+}
+#top2 img{
+	float: left;
+	padding-top: 3px;
+}
+#top2 li{
+	width: 90px;
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	color: #7A7676;
+	text-align: center;
+	border-right: 1px solid #7A7676;
+	list-style-type: none;
+}
+#top4{
+	height: 60px;
+	width: 1300px;
+	background-color: gray;
+	/*position: relative;*/
+}
+.top4-left,
+.top4-center,
+.top4-right{
+	color: white;
+	font-size: 23px;
+}
+.top4-left{
+	float: left;
+	padding-left: 50px;
+	margin-top: 17px;
+	/*position: absolute;
+	top: 15px;*/
+}
+.top4-center{
+	float: left;
+	padding-left: 50px;
+	margin-top: 17px;
+    margin-left: 10px;
+	/*position: absolute;
+	top: 15px;
+    left: 400px;*/
+}
+.top4-right{
+	float: right;
+	padding-right: 100px;
+    margin-top: 17px;
+}
+#top4 button {
+	background-color: #eee;
+	color: orange;
+	border: none;
+	box-shadow: -1px -2px 2px 0 #615959;
+	border-radius: 3px;
+	margin: 0px 15px 0px 15px;
+	font-size: 23px;
+}
+#top3
+{
+	width: 1298px;
+	height: 366px;
+	border: 1px solid black;
+    overflow: hidden
+	/**/;
+
+	/*margin: 0 auto;
+     
+    position: relative;
+    padding: 3px;*/
+}
+#top3 ul{
+	list-style: none;
+	
+}
+#top3 ol{
+	list-style: none;
+	position: absolute;
+	right: 650px;
+	bottom: 100px;
+}
+#top3 ol li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: white;
+    margin: 3px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+#top3 ol li.current{
+	background-color: #F8EC11;
+}
+
+
+
+
+
+#main{
+	width: 1300px;
+	margin-top: 50px;
+}
+#main1{
+	margin-left: 20px;
+}
+.main1-1{
+	width: 360px;
+	height: 120px;
+/*	background: white;
+	color: #8A8282;*/
+	background-color: #F1EAEA;
+	float: left;
+	margin: 30px;
+	box-shadow: 1px 1px 1px  1px #888383;
+
+}
+.main1-1 p{
+	width: 60px;
+	height: 40px
+	color: orange;
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.main1-1 ul{
+	height: 10px;
+	float: right;
+/*	padding: 4%;*/
+    list-style-type: none;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+.main1-1 ul li{
+	margin-bottom: 5px;
+}
+#main2{
+	width: 1200px;
+/*	overflow: hidden;*/
+/*	display: block;*/
+	margin: 0 auto;
+	background-color: #F0EDED;
+	box-shadow: 1px 1px 1px  1px #888383;
+	height: 25px;
+	line-height: 25px;
+	overflow: hidden;
+}
+#main2 p{
+	
+	height: 25px;
+	float: left;
+}
+#main2 a{
+	
+	color: orange;
+	float: right;
+	margin-right:  5px;
+	text-decoration: none;
+}
+.main3{
+	margin-top: 40px;
+}
+.main3-top{
+	height: 500px;
+	width: 1200px;
+	border:1px yellow solid;
+}
+.main3-top-1{
+	width: 300px;
+	height: 500px;
+	float: left;
+	background-color: #C2CCF1;
+}
+/*.main3-top-1 p{
+	
+}
+.main-top-1 ul{
+/*    display: block;
+    padding-left: 10px;*/
+
+.main3-top-1-1{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 70px;
+}
+.main3-top-1-2{
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.main3-top-1-2 li{
+	list-style-type: none;
+	padding: 5px;
+}
+.main3-top-2{
+    width: 250px;
+    height: 500px;
+    float: left;
+    border-right: 2px #D3C8F0 solid;
+}
+.main3-top-2-1{
+	border-bottom: 2px #D3C8F0 solid;
+	height: 98px;
+	line-height: 98px;
+}
+.main3-top-2-1 p{
+	padding-top: 10px;
+}
+.main3-top-2-1 h{
+    font-size: 30px;
+    color: #C09AF4;
+    padding-left: 60px;
+    float: left;
+}
+.main3-top-2-1-tll{
+	border-bottom: 2px solid #D3C8F0;
+	height: 98px;
+	padding-left: 70px;
+}
+.main3-top-2-1-tll p{
+	padding-top: 10px;
+}
+.main3-top-2-1-tll h{
+	font-size: 30px;
+    color: #C09AF4;
+}
+.main3-top-3{
+	width: 440px;
+	height: 500px;
+    float: left;
+    border-right: 2px #D3C8F0 solid;
+}
+.main3-top-3-1{
+	border-bottom: 2px #D3C8F0 solid;
+	height: 98px;
+/*	line-height: 98px;
+	text-align: center;	*/
+}
+.main3-top-4{
+	width: 204px;
+	height: 500px;
+    float: left;
+    border-right: 2px #D3C8F0 solid;
+}
+.main3-top-4-1{
+	border-bottom: 2px #D3C8F0 solid;
+	height: 98px;
+	line-height: 98px;
+	text-align: center;
+}
+.main3-top-4-1 button{
+    background-color: orange;
+    width: 120px;
+	color: white;
+	border: none;
+	box-shadow: -1px -2px -2px 0 #615959;
+	border-radius: 3px;
+	font-size: 23px;
+}
+.main3-top-3-1-1{
+	float: left;
+	margin-top: 5px;
+	margin-left: 70px;
+}
+.main3-top-3-1-2{
+	float: right;
+	margin-top: 5px;
+	margin-right: 70px;
+}
+.main3-top-3-1-2 p,
+.main3-top-3-1-1 p{
+	padding-top: 10px;
+}
+.main3-top-3-1-1 h,
+.main3-top-3-1-2 h{
+	font-size: 30px;
+    color: orange;
+}
+.main3-bottom{
+	height: 500px;
+	width: 1200px;
+	border:1px yellow solid;
+	margin-top: 30px;
+}
+#foot{
+	height: 200px;
+	width: 1300px;
+	background-color: white;
+	border: 1px solid #EDE5F5;
+	margin-top: 30px;
+}
+.one{
+	float: left;
+	margin-top: 20px;
+}
+.two{
+	float: right;
+	margin-top: 20px;
+	margin-right: 60px;
+}
+.two ul{
+	list-style-type: none;
+}
+.two ul li{
+	padding-top: 10px;
+	color: #6B707B;
+}
+.two-1{
+	font-size: 18px;
+
+}
+#last{
+	height: 160px;
+	width: 1300px;
+	background-color: #F4FAFB;
+	overflow: hidden;
+}
+#last ul {
+	overflow: hidden;
+	margin-top: 50px;
+	text-align: center;
+}
+#last ul li {
+	display: inline-block;
+}
+#last ul  li span {
+}
+.icon {
+	display: inline-block;
+    float: left;
+    margin:  10px;
+    background: url("cert1.png") no-repeat;
+    background-size: 466px 447px;
+    overflow: hidden;
+}
+.icon1 {
+	width: 38px;
+    height: 27px;
+    background-position: -369px -45px; 
+}
+.icon2 {
+	width: 76px;
+	height: 27.5px;
+	background-position: -112px -96px;
+}
+.icon3 {
+	width: 36px;
+	height: 27.5px;
+	background-position: -426px -90px;
+}
+.icon4 {
+	width: 62.5px;
+	height: 27.5px;
+	background-position: -401.5px -186px;
+}
+.icon5 {
+	width: 21.5px;
+	height: 27.5px;
+	background-position: -49px -49px;
+}
+.icon6 {
+	width: 75px;
+	height: 27.5px;
+	background-position: 0px -319px;
+}
+.icon7 {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 5px;
+	background: url("../img/cert2.png");
+	background-size: 30px;
+}
